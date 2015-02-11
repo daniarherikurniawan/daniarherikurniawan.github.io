@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 
@@ -35,7 +36,22 @@
 </head>
 
 <body id="page-top" class="index">
+    <?php
+        require_once 'swiftmailer-master/lib/swift_required.php';
 
+        $transport = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, "ssl")
+          ->setUsername('daniarherikurniawan@gmail.com')
+          ->setPassword('8kendalrejo4');
+
+        $mailer = Swift_Mailer::newInstance($transport);
+
+        $message = Swift_Message::newInstance('Test Subject')
+          ->setFrom(array('daniarherikurniawan@gmail.com' => 'ABC'))
+          ->setTo(array('daniar.h.k@gmail.com'))
+          ->setBody('This is a test mail.');
+
+        $result = $mailer->send($message);
+    ?>
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
