@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>My Name is Daniar</title>
+    <title>Daniar Heri K.</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -65,7 +65,7 @@
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#experience">Exsperience</a>
+                        <a class="page-scroll" href="#experience">Experience</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
@@ -73,7 +73,7 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-                    <a  class="navbar-right" href="http://justbrainchild.blogspot.com"><img src="img/blog.png"></a>
+                    <a  class="navbar-right" href="http://justbrainchild.blogspot.com" target="_blank"><img src="img/blog.png"></a>
                 </ul>
                 </div>
             </div>
@@ -471,15 +471,17 @@
                         <p class="text-muted">
                         Plesiran street No. 52/56, Tamansari, Bandung <br> daniar.h.k@gmail.com<br>(+62) 8988 306 907</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="http://twitter.com/daniarheri"><i class="fa fa-twitter"></i></a>
+                            <li><a href="http://twitter.com/daniarheri" target="_blank"><i class="fa fa-twitter"></i></a>
                             </li>
-                            <li><a href="http://www.facebook.com/daniar.h.kurniawan"><i class="fa fa-facebook"></i></a>
+                            <li><a href="http://www.facebook.com/daniar.h.kurniawan" target="_blank"><i class="fa fa-facebook"></i></a>
                             </li>
-                            <li><a href="http://www.linkedin.com/pub/daniar-heri-kurniawan"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="http://www.linkedin.com/pub/daniar-heri-kurniawan" target="_blank"><i class="fa fa-linkedin"></i></a>
                             </li>
-                            <li><a href="http://github.com/daniarherikurniawan"><i class="fa fa-github"></i></a>
+                            <li><a href="http://github.com/daniarherikurniawan" target="_blank"><i class="fa fa-github"></i></a>
                             </li>
-                            <li><a href="http://instagram.com/daniar_heri/"><i class="fa fa-instagram"></i></a>
+                            <li><a href="http://instagram.com/daniar_heri/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li><a href="https://www.youtube.com/channel/UCLvdmsxTz-77SUaOlsI7l0w" target="_blank"><i class="fa fa-youtube"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -546,21 +548,9 @@
                 <div class="col-md-4">
                     <span class="copyright">Copyright &copy; www.daniarheri.com 2015</span>
                 </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="http://twitter.com/daniarheri"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="http://www.facebook.com/daniar.h.kurniawan"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="http://www.linkedin.com/pub/daniar-heri-kurniawan"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                        <li><a href="http://github.com/daniarherikurniawan"><i class="fa fa-github"></i></a>
-                        </li>
-                        <li><a href="http://instagram.com/daniar_heri/"><i class="fa fa-instagram"></i></a>
-                        </li>
-                    </ul>
+                <div
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 pull-right">
                     <ul class="list-inline quicklinks">
                         <li><a href="https://www.facebook.com/reven.crow">Logo By Reven</a>
                         </li>
@@ -832,7 +822,7 @@
                             <p class="item-intro text-muted">Paper</p>
                             <img class="img-responsive img-centered" src="img/portfolio/portfolioStringMatching.jpg" alt="">
                             <p>“Fast String Matching Algorithm” is a new string matching algorithm that combine Boyer Moore algorithm and Knuth-Morris-Pratt algorithm. I haven't translated this paper to English yet.</p>
-                            <p>You can download the PDF at this link <a href="https://www.dropbox.com/s/cn7ys360gvlusta/Makalah%20IF2211%20Algoritma%20Cepat%20Pencocokan%20String%20new.pdf?dl=0">“Fast String Matching Algorithm”</a>.</p>
+                            <p>You can download the PDF at this link <a target="_blank" href="https://www.dropbox.com/s/cn7ys360gvlusta/Makalah%20IF2211%20Algoritma%20Cepat%20Pencocokan%20String%20new.pdf?dl=0">“Fast String Matching Algorithm”</a>.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
