@@ -19,12 +19,6 @@
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="fonts/font_google/font1.css" rel="stylesheet" type="text/css">
-    <link href="fonts/font_google/font2.css" rel="stylesheet" type="text/css">
-    <link href="fonts/font_google/font3.css" rel="stylesheet" type="text/css">
-    <link href="fonts/font_google/font4.css" rel="stylesheet" type="text/css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -76,6 +70,9 @@
                         <a class="page-scroll" style="padding-left: 0px;" >&nbsp</a>
                     </li>
                     
+                    <li style="display: none">
+                        <img src="img/header.jpg"></a>
+                    </li>
                     <li>
                         <a style="margin-top: -3px;"  class="navbar-right" href="file/CV_DANIAR_HERI_KURNIAWAN.pdf" target="_blank">
                         <img style="margin-top: -2px;" src="img/resume.png"> Resume</a>
@@ -101,7 +98,7 @@
     </nav>
 
     <!-- Header -->
-    <header>
+    <header style="background-image: url(img/header.jpg);">
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in text-muted">Welcome To My Website!</div>
@@ -129,15 +126,15 @@
                         <p class="text-muted">
                         Jalan Plesiran No. 52/56, Tamansari, Bandung <br> daniar.h.k@gmail.com<br>(+62) 8988 306 907</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="http://twitter.com/daniarheri" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <li><a href="https://twitter.com/daniarheri" target="_blank"><i class="fa fa-twitter"></i></a>
                             </li>
-                            <li><a href="http://www.facebook.com/daniar.h.kurniawan" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.facebook.com/daniar.h.kurniawan" target="_blank"><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href="https://id.linkedin.com/in/daniar-heri-kurniawan-98b6158b" target="_blank"><i class="fa fa-linkedin"></i></a>
                             </li>
-                            <li><a href="http://github.com/daniarherikurniawan" target="_blank"><i class="fa fa-github"></i></a>
+                            <li><a href="https://github.com/daniarherikurniawan" target="_blank"><i class="fa fa-github"></i></a>
                             </li>
-                            <li><a href="http://instagram.com/daniar_heri/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <li><a href="https://instagram.com/daniar_heri/" target="_blank"><i class="fa fa-instagram"></i></a>
                             </li>
                             <li><a href="https://www.youtube.com/channel/UCLvdmsxTz-77SUaOlsI7l0w" target="_blank"><i class="fa fa-youtube"></i></a>
                             </li>
@@ -189,6 +186,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
@@ -347,6 +345,23 @@
         </div>
     </section>
 
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="fonts/font_google/font1.css" rel="stylesheet" type="text/css">
+    <link href="fonts/font_google/font2.css" rel="stylesheet" type="text/css">
+    <link href="fonts/font_google/font3.css" rel="stylesheet" type="text/css">
+    <link href="fonts/font_google/font4.css" rel="stylesheet" type="text/css">
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+    
     <!-- About Section -->
     <section id="experience">
         <div class="container">
@@ -667,7 +682,7 @@
                 </div>
                 <div class="col-md-4 pull-right">
                     <ul class="list-inline quicklinks">
-                        <li><a href="http://getbootstrap.com/">Framework by Bootstrap</a>
+                        <li><a href="https://getbootstrap.com/">Framework by Bootstrap</a>
                         </li>
                     </ul>
                 </div>
@@ -695,7 +710,7 @@
                             <h2>Cari Kos</h2>
                             <p class="item-intro text-muted">Web Based Application</p>
                             <img class="img-responsive" src="img/portfolio/portfolioCariKos.jpg" alt="">
-                            <p>www.carikos.com is a web application for search, book, and advertise rented rooms. This project funded by Indonesian Ministry of High Education since we selected as semifinalist. (http://www.dikti.go.id)</p>
+                            <p>www.carikos.com is a web application for search, book, and advertise rented rooms. This project funded by Indonesian Ministry of High Education since we selected as semifinalist. (https://www.dikti.go.id)</p>
                             
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
@@ -945,19 +960,9 @@
     </div>
 
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
     <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/agency.js"></script>
 
 </body>
 
