@@ -4,7 +4,7 @@
 
 <head>
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-
+    <meta name="google-site-verification" content="2kyvOX-nPJUVa0snTLoJ_mQXHQXFhSAf2Od1Su9MNiI" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,11 +21,10 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
+    <link href="fonts/font_google/font1.css" rel="stylesheet" type="text/css">
+    <link href="fonts/font_google/font2.css" rel="stylesheet" type="text/css">
+    <link href="fonts/font_google/font3.css" rel="stylesheet" type="text/css">
+    <link href="fonts/font_google/font4.css" rel="stylesheet" type="text/css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -48,7 +47,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a  class="navbar-brand page-scroll" href="#page-top"><img src="img/daniarheri.png"></a>
+                <a  class="navbar-brand page-scroll" href="#page-top"><img src="img/favicon.png"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -59,6 +58,9 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#overview">Overview</a>
                     </li>
                     <li>
@@ -67,13 +69,29 @@
                     <li>
                         <a class="page-scroll" href="#experience">Experience</a>
                     </li>
+                    <li > 
+                        <a class="page-scroll" style="    padding-left: 0px;border-right: 1px solid white;">&nbsp</a>
+                    </li>
+                    <li > 
+                        <a class="page-scroll" style="padding-left: 0px;" >&nbsp</a>
+                    </li>
+                    
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a style="margin-top: -3px;"  class="navbar-right" href="file/CV_DANIAR_HERI_KURNIAWAN.pdf" target="_blank">
+                        <img style="margin-top: -2px;" src="img/resume.png"> Resume</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a style="margin-top: -3px;"  class="navbar-right" href="https://sci-learn.com" target="_blank">
+                        <img style="margin-top: -2px;" src="img/scilearn.png"> Sci-Learn</a>
                     </li>
-                    <a  class="navbar-right" href="http://justbrainchild.blogspot.com" target="_blank"><img src="img/blog.png"></a>
+                    <li>
+                        <a style="margin-top: -3px;"  class="navbar-right" href="https://medium.com/@daniarherikurniawan" target="_blank">
+                        <img style="margin-top: -2px;" src="img/medium_icon.png"> My Medium</a>
+                    </li>
+                    <li>
+                        <a style="margin-top: -1px;"  class="navbar-right" href="https://my-wedding.date/" target="_blank">
+                        <img style="margin-top: -2px;" src="img/favicon4.png">  My Wedding</a>
+                    </li>
                 </ul>
                 </div>
             </div>
@@ -82,24 +100,60 @@
         <!-- /.container-fluid -->
     </nav>
 
-
-
-
-    
-
-
-
-
     <!-- Header -->
     <header>
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in text-muted">Welcome To My Website!</div>
                 <div class="intro-heading">はじめまして</div>
-                <a href="#overview" class="page-scroll btn btn-xl ">Tell Me More</a>
+
+                <a href="#about" class="page-scroll btn btn-xl ">More About Me</a>
             </div>
         </div>
     </header>
+                
+    <!-- Team Section -->
+    <section id="about" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <p>My name is Daniar Heri Kurniawan, I finished my BS in Computer Science at Bandung Institute of Technology. I am the founder of Sci-Learn and Gudhang.com, both of them are still in development phases. I am an extrovert who interact well with people. I like to set goals and I am very persistent in achieving them. Moreover, I love programming because everything is programmable. </p>
+                        <p>Even though I made some simple appications but I believe that everything big come from the simple one. As long as we have the right goals to create our programs, I am sure we can make our world easier.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/about/fotodaniar.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Daniar Heri Kurniawan</h4>
+                        <p class="text-muted">
+                        Jalan Plesiran No. 52/56, Tamansari, Bandung <br> daniar.h.k@gmail.com<br>(+62) 8988 306 907</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="http://twitter.com/daniarheri" target="_blank"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="http://www.facebook.com/daniar.h.kurniawan" target="_blank"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://id.linkedin.com/in/daniar-heri-kurniawan-98b6158b" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li><a href="http://github.com/daniarherikurniawan" target="_blank"><i class="fa fa-github"></i></a>
+                            </li>
+                            <li><a href="http://instagram.com/daniar_heri/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li><a href="https://www.youtube.com/channel/UCLvdmsxTz-77SUaOlsI7l0w" target="_blank"><i class="fa fa-youtube"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                         <p>My motivation is to do my best wherever I am and whatever position I am in. Basically, I want to make my family proud of me and make them happy. I believe that the way we think is the main source of a strong motivation. I love challenges, so when I face an unexpected problem, I am pretending that it is my new challenge that need to be done. </p>
+                         <p>I am excellent in working with computer. I am studying and practicing about how to develop software and about team management because it is impossible to make a great software only by myself.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Services Section -->
     <section id="overview">
@@ -107,7 +161,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Overview</h2>
-                    <h3 class="section-subheading text-muted">Hi!! My name is Daniar Heri Kurniawan, you can call me Daniar / Dany / whatever you want. I am building this website for sharing my information. I believe that this website can help me to be much more known through this infinite world. Although it is just a simple website, but I did my best for creating every detail of it's parts. You will know me well after reading each section of my pages.</h3>
+                    <h3 class="section-subheading text-muted">Hi!! My name is Daniar Heri Kurniawan, you can call me Daniar. I am building this website for sharing my information. I believe that this website can help me to be much more known through this infinite world. Although it is just a simple website, but I did my best for creating every detail of it's parts. You will know me well after reading each section of my pages.</h3>
                 </div>
             </div>
             <div class="row text-center">
@@ -130,7 +184,7 @@
                         <img src="img/overview/dream.png">
                     </span>
                     <h4 class="service-heading">Dream</h4>
-                    <p class="text-muted">I want to be happy. Happy is not about having too much free time, but happiness is a condition when I can do something new and achieve my goals. Moreover, I am going to be a lecturer for sharing my knowledge and building my societies</p>
+                    <p class="text-muted">I want to be happy. Happy is not about having too much free time, but happiness is a condition when I can do something new and achieve my goals. Moreover, I would like to be a lecturer for sharing my knowledge and a socio-preneur</p>
                 </div>
             </div>
         </div>
@@ -167,7 +221,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/tamankita.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/tamankita.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Taman Kita</h4>
@@ -195,7 +249,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/sudoku.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/sudoku.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Sudoku</h4>
@@ -209,7 +263,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/rockslice.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/rockslice.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Rock Slice</h4>
@@ -223,7 +277,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/access.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/access.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Access'apps</h4>
@@ -237,7 +291,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/twitanalayzer.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/twitanalayzer.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Tweet Analayzer</h4>
@@ -251,7 +305,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/enigma.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/enigma.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Enigma Mobile</h4>
@@ -265,7 +319,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/webcrawler.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/webcrawler.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Web Crawler</h4>
@@ -282,7 +336,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/stringalgorithm.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/stringalgorithm.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>String Matching Algorithm</h4>
@@ -305,9 +359,150 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/experience/uchicago.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h5>September 2015 - Present</h5>
+                                    <br>
+                                    <h4 class="subheading">UCare Laboratory of the University of Chicago</h4><h5><i>Student Researcher</i></h5>
+                                </div>
+                                <br>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Research area of UCare Lab are cloud computing and distributed system. This Lab is run by PhD students of Chicago University under supervision of their professors. </p>
+                                    <br>
+                                    <p>Focus on studying bugs at cloud computing and distributed system such as Couchbase, Hadoop, and Cassandra.</p>
+                                    <br>
+                                    <p class="text-muted">Having weekly report and assignment that teach me to stay focus even under pressure.</p>
+                                </div>
+                            </div>
+                        </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/experience/sawadee.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/experience/cern.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h5>July - September 2017</h5>
+                                    <br>
+                                    <h4 class="subheading">CERN Openlab Summer Student</h4><h5><i>Research Student – Geneva, Swiss</i></h5>
+                                </div>
+                                <br>
+                                <div class="timeline-body">
+                                    <p class="text-muted">CERN Openlab and the IT-CDA Group in collaboration with UNOSAT are investigating novel technologies for facilitating satellite maps navigation and comparisons using VR.</p>
+                                    <br>
+                                    <p>There were only 37 international students selected among 1580 applicants from all around the world.</p>
+                                    <br>
+                                    <p class="text-muted">I developed an animated 3D model of Ab-Barak landslide on Microsoft Hololens.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/experience/tut.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h5>November 2016 (10 days)</h5>
+                                    <br>
+                                    <h4 class="subheading">Computer Science Laboratories, Toyohashi University of Technology
+                                    </h4><h5><i>TUT International Student Program 2016 - Toyohashi, Japan</i></h5>
+                                </div>
+                                <br>
+                                <div class="timeline-body">
+                                    <p class="text-muted">TUT is among an elite group of 22 universities selected for the Japanese government funded program, the Program for Promoting the Enhancement of Research Universities. </p>
+                                    <br>
+                                    <p>I shared my experience and my research plan that tailored to TUT’s research activity.</p>
+                                    <br>
+                                    <p class="text-muted">I got an offer to do the research at TUT as part of Master Degree Research Program.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/experience/aiesec.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h5>July - November 2016</h5>
+                                    <br>
+                                    <h4 class="subheading">AIESEC in Bandung</h4><h5><i>International Relation Coordinator - Bandung, Indonesia</i></h5>
+                                </div>
+                                <br>
+                                <div class="timeline-body">
+                                    <p class="text-muted">In 1949, AIESEC was established at Stockholm Congress. AIESEC is now present in more than 125 countries, with more than 80,000 members and 5,000 partners.</p>
+                                    <br>
+                                    <p>International relation is a collaboration among entities (Local Committees) to support each other in terms of exchanging member and giving the best experience that AIESEC has promised.</p>
+                                    <br>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/experience/jaist.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h5>September 2015 - February 2016</h5>
+                                    <br>
+                                    <h4 class="subheading">Hasegawa Laboratory, Japan Advanced Institute of Science and Technology
+                                    </h4><h5><i>Research Student - Ishikawa, Japan</i></h5>
+                                </div>
+                                <br>
+                                <div class="timeline-body">
+                                    <p class="text-muted">We were developing Sci-Learn, e-Learning platform, and also the multi agent system to simulate user’s behavior and evaluate the new feature of Sci-Learn. (https://sci-learn.com). </p>
+                                    <br>
+                                    <p>Sci-Learn is developed for scalability purpose.</p>
+                                    <br>
+                                    <p class="text-muted">The general idea of Sci-Learn is to combine Social Network (Facebook, LinkedIn, Google+) with gamification to increase learners’ engagement.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/experience/td.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h5>September - November 2015</h5>
+                                    <br>
+                                    <h4 class="subheading">TD&Company Limited</h4><h5><i>Intern as Software Engineer</i></h5>
+                                </div>
+                                <br>
+                                <div class="timeline-body">
+                                    <p class="text-muted">The main business of TD&Company are SAP consulting service, global helpdesk service, system service, and management service. There are seven overseas branches including Hong Kong, Singapore, Netherland, and Germany.</p>
+                                    <br>
+                                    <p>Run software testing for the new ERP Software called Multibook.</p>
+                                    <br>
+                                    <p class="text-muted">Implemented authentication module in the Spring Framework controller and Angular JS controller that will be used to authenticate more than 50 modules.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/experience/gdp.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h5>September 2015 - November 2015</h5>
+                                    <br>
+                                    <h4 class="subheading">Global Digital Prima (GDP) Venture Inc.</h4><h5><i>Intern as Software Engineer</i></h5>
+                                </div>
+                                <br>
+                                <div class="timeline-body">
+                                    <p class="text-muted">GDP Venture is one of the leading strategic investor located in Jakarta. They invest in early and growing stages of new companies in information technology industry such as Kaskus.co.id and Blibli.com.</p>
+                                    <br>
+                                    <p>Reduced query time by 98% by migrating databases to Amazon Redshift.</p>
+                                    <br>
+                                    <p class="text-muted">Reduced query time by 50% by optimizing old query that used by the company for retrieving data.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/experience/aiesec.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -329,13 +524,13 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h5>2014 - Present</h5>
+                                    <h5>2014 - 2015</h5>
                                     <br>
                                     <h4 class="subheading">Code for Bandung </h4><h5><i>Software Analyst</i></h5>
                                 </div>
                                 <br>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Code for Bandung is a project that having purpose to support smart city development in Bandung. This project is funding by US organization.</p>
+                                    <p class="text-muted">Code for Bandung is a project that having purpose to support smart city development in Bandung. This project is funded by US organization.</p>
                                     <br>
                                     <p>We work together directly with Bandung’s government to make their job easier by using software that we have built. </p>
                                 </div>
@@ -349,7 +544,7 @@
                                 <div class="timeline-heading">
                                     <h5>2014 - Present</h5>
                                     <br>
-                                    <h4 class="subheading">Student Association of Bandung Institute of Technology </h4><h5><i>Deputy chief of familiarity</i></h5>
+                                    <h4 class="subheading">Student Association of Bandung Institute of Technology </h4><h5><i>Deputy Chief of Internal Relation</i></h5>
                                 </div>
                                 <br>
                                 <div class="timeline-body">
@@ -437,9 +632,10 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <h4>Together
-                                    <br>Would be
-                                    <br>Better!</h4>
+                                <h4 style="    margin-top: 27px;">Please
+                                    <br>Contact Me
+                                    <br>for More
+                                    <br>Detail</h4>
                             </div>
                         </li>
                     </ul>
@@ -448,95 +644,14 @@
         </div>
     </section>
 
-    <!-- Team Section -->
-    <section id="about" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About Me</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <p>My name is Daniar Heri Kurniawan, I am studying at Bandung Institute of Technology, majoring informatics engineering. I am an extrovert who interact well with people. I like to set goals and keep them and I am very persistent. Moreover, I love programming because everything is programmable. </p>
-                        <p>Even though I made a simple appication but I believe that everything big come from the simple one. As loong as we have the right goals to create our programs. I am sure, we can make our world easier.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/about/fotodaniar.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Daniar Heri Kurniawan</h4>
-                        <p class="text-muted">
-                        Plesiran street No. 52/56, Tamansari, Bandung <br> daniar.h.k@gmail.com<br>(+62) 8988 306 907</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="http://twitter.com/daniarheri" target="_blank"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="http://www.facebook.com/daniar.h.kurniawan" target="_blank"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="http://www.linkedin.com/pub/daniar-heri-kurniawan" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="http://github.com/daniarherikurniawan" target="_blank"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="http://instagram.com/daniar_heri/" target="_blank"><i class="fa fa-instagram"></i></a>
-                            </li>
-                            <li><a href="https://www.youtube.com/channel/UCLvdmsxTz-77SUaOlsI7l0w" target="_blank"><i class="fa fa-youtube"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                         <p>My motivations are to do my best wherever I am and whatever position I am in. The much more basic is to make my family proud of me and make them happy. The way of how we are thinking is also can be a strong motivation. I love challenges, so when I face an unexpected problem, I am pretending that it is my new challenges that need to be done. </p>
-                         <p>I am excellent in working with computer. I am studying and practicing how to develop software and about team management because it is impossible to make a great software only by myself.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    
     
 
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Me!</h2>
-                    <h3 class="section-subheading text-warning">Sorry, this functionality is under construction.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
+                    <h2 class="section-heading">Thank you!</h2>
                 </div>
             </div>
         </div>
@@ -546,14 +661,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; www.daniarheri.com 2015</span>
+                    <span class="copyright">Copyright &copy; www.daniarheri.com 2018</span>
                 </div>
                 <div
                 </div>
                 <div class="col-md-4 pull-right">
                     <ul class="list-inline quicklinks">
-                        <li><a href="https://www.facebook.com/reven.crow">Logo By Reven</a>
-                        </li>
                         <li><a href="http://getbootstrap.com/">Framework by Bootstrap</a>
                         </li>
                     </ul>
@@ -842,10 +955,6 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
