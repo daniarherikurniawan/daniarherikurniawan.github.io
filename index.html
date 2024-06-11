@@ -1,967 +1,640 @@
 <!DOCTYPE html>
+<script src="assets/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="assets/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/plugins/jquery.easing.min.js" type="text/javascript"></script>
+<script src="assets/plugins/reveal-animate/wow.js" type="text/javascript"></script>
+<script src="assets/demos/index/js/scripts/reveal-animate/reveal-animate.js" type="text/javascript"></script>
+<!-- END: CORE PLUGINS -->
+<!-- BEGIN: LAYOUT PLUGINS -->
+<script src="assets/plugins/revo-slider/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+<script src="assets/plugins/revo-slider/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+<script src="assets/plugins/revo-slider/js/extensions/revolution.extension.slideanims.min.js" type="text/javascript"></script>
+<script src="assets/plugins/revo-slider/js/extensions/revolution.extension.layeranimation.min.js" type="text/javascript"></script>
+<script src="assets/plugins/revo-slider/js/extensions/revolution.extension.navigation.min.js" type="text/javascript"></script>
+<script src="assets/plugins/revo-slider/js/extensions/revolution.extension.video.min.js" type="text/javascript"></script>
+<script src="assets/plugins/revo-slider/js/extensions/revolution.extension.parallax.min.js" type="text/javascript"></script>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
 <html lang="en">
+    <!--<![endif]-->
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8" />
+        <title>Daniar H. Kurniawan</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta content="" name="description" />
+        <meta content="" name="author" />
+        <!-- BEGIN GLOBAL MANDATORY STYLES -->
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all' rel='stylesheet' type='text/css'>
+        <link href="assets/plugins/socicon/socicon.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/bootstrap-social/bootstrap-social.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" /> -->
+        <link href="assets/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/animate/animate.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- END GLOBAL MANDATORY STYLES -->
+        <!-- BEGIN: BASE PLUGINS  -->
+        <link href="assets/plugins/revo-slider/css/settings.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/revo-slider/css/layers.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/revo-slider/css/navigation.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/owl-carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/slider-for-bootstrap/css/slider.css" rel="stylesheet" type="text/css" />
+        <!-- END: BASE PLUGINS -->
+        <!-- BEGIN: PAGE STYLES -->
+        <link href="assets/plugins/ilightbox/css/ilightbox.css" rel="stylesheet" type="text/css" />
+        <!-- END: PAGE STYLES -->
+        <!-- BEGIN THEME STYLES -->
+        <link href="assets/demos/index/css/plugins.css" rel="stylesheet" type="text/css" />
+        <link href="assets/demos/index/css/components.css" id="style_components" rel="stylesheet" type="text/css" />
+        <link href="assets/demos/index/css/themes/default.css" rel="stylesheet" id="style_theme" type="text/css" />
+        <link href="assets/demos/index/css/custom.css" rel="stylesheet" type="text/css" />
+        <!-- END THEME STYLES -->
+        <link rel="shortcut icon" href="uchicago-small.png" /> </head>
+
+    <body class="c-layout-header-fixed c-layout-header-mobile-fixed">
+        <!-- BEGIN: LAYOUT/HEADERS/HEADER-1 -->
+        <!-- BEGIN: HEADER -->
+        <header class="c-layout-header c-layout-header-4 c-layout-header-default-mobile" data-minimize-offset="80">
+            <div class="c-navbar" style="    background: white;">
+                <div class="container">
+                    <!-- BEGIN: BRAND -->
+                    <div class="c-navbar-wrapper clearfix">
+                        <div class="c-brand c-pull-left" style="    margin-bottom: 10px;">
+                            <a href="https://daniarherikurniawan.github.io/" class="c-logo">
+                                <img src="assets/base/img/content/uchicago/Dan.png" alt="AVATAR" class="c-desktop-logo" height="49">
+                                <img src="assets/base/img/content/uchicago/Dan.png" alt="AVATAR" class="c-desktop-logo-inverse" height="49">
+                                <img src="assets/base/img/content/uchicago/Dan.png" alt="AVATAR" class="c-mobile-logo" height="49" style="margin-top: -8px"> </a>
+                            <button class="c-hor-nav-toggler" type="button" data-target=".c-mega-menu">
+                                <span class="c-line"></span>
+                                <span class="c-line"></span>
+                                <span class="c-line"></span>
+                            </button>
+                            <button class="c-topbar-toggler" type="button">
+                                <i class="fa fa-ellipsis-v"></i>
+                            </button>
+                        </div>
+                        <!-- END: BRAND -->
+                        <!-- BEGIN: HOR NAV -->
+                        <!-- BEGIN: LAYOUT/HEADERS/MEGA-MENU -->
+                        <!-- BEGIN: MEGA MENU -->
+                        <!-- Dropdown menu toggle on mobile: c-toggler class can be applied to the link arrow or link itself depending on toggle mode -->
+                        <nav class="c-mega-menu c-pull-right c-mega-menu-dark c-mega-menu-dark-mobile c-fonts-uppercase c-fonts-bold" style="max-height: 500px !important">
+                            <ul class="nav navbar-nav c-theme-nav">
+                                
+                                <li class="c-menu-type-classic">
+                                    <a href="javascript:;" class="c-link js-smoothscroll" data-target="publications">Publications
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                </li>
+
+                                <li class="c-menu-type-classic">
+                                    <a href="javascript:;" class="c-link js-smoothscroll" data-target="awards">Awards
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                </li>
+
+                                <li class="c-menu-type-classic">
+                                    <a href="https://medium.com/@daniarheri" class="c-link " target="_blank" data-target="awards">Blog
+                                        <span class="c-arrow c-toggler"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="daniar-cv.pdf" class="c-btn-border-opacity-04 c-btn btn-no-focus c-btn-header btn btn-sm c-btn-border-1x c-btn-dark c-btn-circle c-btn-uppercase c-btn-sbold" target="_blank"><i class="fa fa-download"></i> CV (pdf)</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- END: MEGA MENU -->
+                        <!-- END: LAYOUT/HEADERS/MEGA-MENU -->
+                        <!-- END: HOR NAV -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- END: HEADER -->
+        
+        
+
+        <!-- BEGIN: PAGE CONTAINER -->
+            <!-- BEGIN: CONTENT/MISC/WHY-CHOOSE-US-1 -->
+            <span id="about"></span>
+            <!-- <br> -->
+            <span id="dinamicBrAbout0" ></span>
+            <script type="text/javascript">
+                if($(window).width()>=1000){
+                    $('#dinamicBrAbout0').html("<br><br>")
+                }
+            </script>
+            <!-- <br> -->
+
+            <div class="c-content-box c-size-lg c-bg-grey" style="padding: 100px 0 50px;">
+                <div class="container">
+                    <div class="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="name-desktop" class="c-content-feature-5">
+                                    <div class="c-content-title-1 wow amimate fadeInLeft">
+                                        <br>
+                                        <br>
+                                        <h3 class="c-left c-font-dark c-font-uppercase c-font-bold"><span style="color: #8c001f;">Daniar</span> H.
+                                            <br>Kurniawan</h3>
+                                        <div class="c-line-left c-bg-blue-3 c-theme-bg"></div>
+                                         
+                                        <h2><i>
+                                            "The best of human 
+                                            <br>is the most helpful 
+                                            <br>to others."
+                                        </i></h2>
+                                        Al-Hadits
+                                        <!-- <h2><i>
+                                            "Cultivation of mind 
+                                            <br>should be the ultimate 
+                                            <br>aim of human existence."
+
+                                        </i></h2>
+                                        Dr. B.R. Ambedkar -->
+                                       <!--  <h2><i>"No one has ever
+                                        <br>become poor 
+                                        <br>by giving"</i></h2> -->
+                                    </div>
+                                    <!-- <a href="arsip/CV-Daniar.pdf" class="c-action-btn btn btn-lg c-theme-btn c-btn-bold c-btn-uppercase" data-target="programs" target="_blank">CV (pdf)</a> -->
+                                    <!-- <img class="c-photo img-responsive " width="320" alt="" src="assets/base/img/content/uchicago/Daniar.png" />  -->
+                                    <img class="c-photo img-responsive " width="320" alt="" src="assets/base/img/content/uchicago/dan-2023.png" /> 
+                                </div>
+
+                                <div id="name-mobile" class="c-content-feature-5 ">
+
+                                    <div class="c-content-title-1 wow amimate fadeInDown">
+                                        <h2 class="c-left c-font-dark c-font-uppercase c-font-bold" style="text-align: center;"><span style="color: #8c001f;">Daniar</span> H. Kurniawan</h2>
+                                    </div>
+                                    <div class="c-media c-center">
+                                        <!-- <img src="assets/base/img/content/uchicago/Daniar.png" width="180" alt="" />  -->
+                                        <img src="assets/base/img/content/uchicago/dan-2023.png" width="180" alt="" /> 
+                                    </div>
+
+                                    <h4 style="text-align: center;"><i>
+                                        "Cultivation of mind should be 
+                                        <br>the ultimate aim of human existence."
+                                    </i></h4>
+                                    <!-- <h4 style="text-align: center;"><i>"No one has ever
+                                    <br>become poor 
+                                    by giving"</i></h4> -->
+                                    <br>
+                                    <!-- <img class="c-photo img-responsive wow animate fadeInUp" width="320" alt="" src="assets/base/img/content/uchicago/Daniar.png" />  -->
+                                </div>
+                                <script type="text/javascript">
+                                    if($(window).width()<1200){
+                                        $('#name-desktop').html("")
+                                    }else{
+                                        $('#name-mobile').html("")
+                                    }
+                                </script>
+                            </div>
+                            <div class="col-md-6">
+
+                                <div class="c-content-feature-1 wow animate fadeInRight" style="text-align: center;">
+                                    <p class="c-font c-line-left" style="text-align: left;" >Hi, my name is Daniar, but you can call me <b>Dan</b>. 
+				     I am currently pursuing a Ph.D. in Computer Science at the University of Chicago, where I am a member of the <a href="https://ucare.cs.uchicago.edu/"><b>UCARE</b></a> research group 
+				     and have the privilege of being advised by Professor <a href="http://people.cs.uchicago.edu/~haryadi/" target="_blank"><b>Haryadi Gunawi</b></a>. I received my bachelor degree from Institut Teknologi Bandung (ITB), Indonesia, where I graduated with a cum laude distinction. 
+                                    <br>
+				    <br> I have a strong background in <b>Machine Learning</b> and <b>Distributed Systems</b>, with over 7 years of experience in Cloud Systems research. I enjoy tackling difficult research questions and managing projects from start to finish. In addition to my own research, I have also mentored over 10 undergraduate and master's students in a research mentorship program over the past three years. In total, I have published nine papers in peer-reviewed conferences, with four of them being first-author contributions. Some of these papers have been accepted at top Systems Conferences such as ASPLOS, OSDI, SIGCOMM, and EUROSYS
+                                    <br>
+                                    <!-- <br><b>CV:</b> <a style="color: #8d001c" href="arsip/CV-Daniar.pdf" target="_blank">[pdf]</a> -->
+                                    <br><b>Email:</b>
+                                    <br>&emsp; <i>< first-name ></i> @ cs.uchicago.edu 
+                                    <!-- <br> -->
+                                    <br><b>Office:</b>  
+                                    <br>&emsp; John Crerar Library (JCL) 283
+                                    <br>&emsp; 5730 S. Ellis Avenue, Chicago, IL 60637 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <span id="news" style="top: -50px; position: relative;"></span>
+            <div class="c-content-box c-size-md c-bg-grey-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12" style="padding-right: 30px">
+                            <div class="c-content-feature-1 wow animate fadeInUp" >
+                                <h2 class="c-font-uppercase c-font-bold" style="text-align: center;">NEWS!</h2>
+                                <p style="text-align: center;">
+                                  The most up to date CV is
+                                  <a href="daniar-cv.pdf" target="_blank">here</a>
+                                </p>
+                                <br>
+                                <ul class="wow animate fadeInUp">
+                                  <li>
+                                     [2024] I am thrilled to announce that I will be joining MangoBoost full-time! :)
+                                  </li>
+                                  <li>
+                                     [2023] The EVStore paper has been published at ASPLOS! Check out how we implement groupability-aware caching!
+                                  </li>
+                                  <li>
+                                     [2022] Passed my candidacy exam!
+                                  </li>
+                                  <li>
+                                     [2020] Successfully defend my master's thesis!
+                                  </li>
+                                  <li>
+                                     [2020] Granted University Unrestricted (UU) Fellowship
+                                  </li>
+                                  <li>
+                                     [2020] I am remotely interning at VMware Research this summer!
+                                  </li>
+                                  <li>
+                                     [2019] Spent a few days working at MSR New York Office, catching up the deadlines
+                                  </li>
+                                  <li>
+                                     [2018] Received CERES Grant!
+                                  </li>
+                                </ul>
+
+                           <!--  <div class="c-content-feature-1 wow animate fadeInUp" style="text-align: center;">
+                                <h2 class="c-font-uppercase c-font-bold">Awards</h2>
+                                <p class="c-font-thin"><b>Avatar</b> merupakan sebuah komunitas yang dibentuk sebagai wadah bagi pemuda untuk berkecimpung dan berkontribusi aktif dalam memajukan pendidikan. Nama Avatar merupakan kependekan dari Akselerasi Visi Akademis Berintegritas Luhur.</p>
+                                <br> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <span id="publications" style="top: -50px; position: relative;"></span>
+            <!-- BEGIN: CONTENT/FEATURES/FEATURES-1 -->
+            <div class="c-content-box c-size-md c-bg-grey-1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="c-content-feature-1 wow animate fadeInUp" >
+                                <h2 class="c-font-uppercase c-font-bold" style="text-align: center;">Publications</h2>
+                                <p style="text-align: center;">
+                                  Also recorded by
+                                  <a href="https://dblp.org/pers/hd/k/Kurniawan:Daniar_H=" target="_blank">DBLP</a> |
+                                  <a href="https://scholar.google.com/citations?user=4X7MdUYAAAAJ&hl=en" target="_blank">Google Scholar</a>
+                                </p>
 
 
-<head>
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-    <meta name="google-site-verification" content="2kyvOX-nPJUVa0snTLoJ_mQXHQXFhSAf2Od1Su9MNiI" />
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+                                <h3 class="wow animate fadeInUp" id="section-19">2024</h3>
+                                <ul class="wow animate fadeInUp">
 
-    <title>Daniar Heri K.</title>
+                                  <li><a href="#" >HEIMDALL: Towards an End-to-End Data Science Pipeline for Storage I/O Policies </a>
+                                    <br>
+                                    <it>Under submission, manuscript ready upon request</it>
+                                  </li>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+                                  <li><a href="#" >TINFETCH: A Tiny Neural Network for Block Prefetching via Precise Address Separation and Suffix Prediction </a>
+                                    <br>
+                                    <it>Under submission, manuscript ready upon request</it>
+                                  </li>
+                                </ul>
 
-    <!-- Custom CSS -->
-    <link href="css/agency.css" rel="stylesheet">
+                                <h3 class="wow animate fadeInUp" id="section-19">2023</h3>
+                                <ul class="wow animate fadeInUp">
+                                  <li><a href="https://ucare.cs.uchicago.edu/pdf/asplos23-EVStore.pdf" target="_blank">EVStore: Storage and Caching Capabilities for Scaling Embedding Tables in Deep Recommendation Systems</a>
+                                    <br>
+                                    <b>Daniar H. Kurniawan</b>, Ruipu Wang, Kahfi Zulkifli, Fandi Wiranata, John Bent, Ymir Vigfusson, 
+                                    <a href="https://people.cs.uchicago.edu/~haryadi/" target="_blank" class="person">Haryadi S. Gunawi</a><br>
+                                    <a href="https://asplos-conference.org/asplos-2023-cfp/" target="_blank"><i>ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)</i></a><br>
+                                    March 2023.
+                                  </li>
+                                </ul>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+                                <h3 class="wow animate fadeInUp" id="section-19">2022</h3>
+                                <ul class="wow animate fadeInUp">
+                                  <li><a href="https://ucare.cs.uchicago.edu/pdf/cloud22-libros.pdf" target="_blank">Layered Contention Mitigation for Cloud Storage</a>
+                                    <br>
+                                    Meng Wang, Cesar A. Stuardo, <b>Daniar H. Kurniawan</b>, Ray A. O. Sinurat,
+                                    <a href="https://people.cs.uchicago.edu/~haryadi/" target="_blank" class="person">Haryadi S. Gunawi</a><br>
+                                    <a href="https://conferences.computer.org/cloud/2022/" target="_blank"><i>the IEEE International Conference on Cloud Computing (CLOUD)</i></a><br>
+                                    July 2022.
+                                  </li>
+                                </ul>
+
+
+                                <h3 class="wow animate fadeInUp" id="section-19">2021</h3>
+                                <ul class="wow animate fadeInUp">
+                                  <li><a href="https://daniarherikurniawan.github.io/ionet-tr.pdf" target="_blank">IONET: Towards an Open Machine Learning Training Ground for I/O Performance Prediction</a>
+                                    <br>
+                                    <b>Daniar H. Kurniawan</b>, Levent Toksoz, Mingzhe Hao, Henry Hoffmann, Tim Emami, Sandeep Madireddy, Anirudh Badam, Robert B. Ross, 
+                                    <a href="https://people.cs.uchicago.edu/~haryadi/" target="_blank" class="person">Haryadi S. Gunawi</a><br>
+                                    <a href="https://newtraell.cs.uchicago.edu/research/publications/techreports" target="_blank"><i>University of Chicago Technical Report</i></a><br>
+                                    December 2021.
+                                  </li>
+                                </ul>
+
+                                <h3 class="wow animate fadeInUp" id="section-19">2020</h3>
+                                <ul class="wow animate fadeInUp">
+                                  <li><a href="https://daniarherikurniawan.github.io/mitmem-tr.pdf" target="_blank">Notification and Prediction of Heap Management Pauses in Managed Languages for Latency Stable Systems</a>
+                                    <br>
+                                    <b>Daniar H. Kurniawan</b>, Cesar A. Stuardo, Ray A. O. Sinurat, 
+                                    <a href="https://people.cs.uchicago.edu/~haryadi/" target="_blank" class="person">Haryadi S. Gunawi</a><br>
+                                    <a href="https://newtraell.cs.uchicago.edu/research/publications/techreports" target="_blank"><i>University of Chicago Technical Report</i></a><br>
+                                    December 2020.
+                                  </li>
+                                </ul>
+
+                                <h3 class="wow animate fadeInUp" id="section-19">2019</h3>
+                                <ul class="wow animate fadeInUp">
+                                  <li>
+                                    <a href="https://people.cs.uchicago.edu/~junchenj/docs/E2E_Sigcomm19.pdf" target="_blank">E2E: Embracing User Heterogeneity to Improve Quality of Experience on the Web</a>
+                                    <br>
+                                    Xu Zhang,
+                                    Siddhartha Sen,
+                                    <b>Daniar H. Kurniawan</b>,
+                                    <a href="https://people.cs.uchicago.edu/~haryadi/" target="_blank" class="person">Haryadi S. Gunawi</a>,
+                                    <a href="http://people.cs.uchicago.edu/~junchenj/" target="_blank" class="person">Junchen Jiang</a><br>
+                                    <a href="https://conferences.sigcomm.org/sigcomm/2019/" target="_blank"><i>ACM SIGCOMM 2019</i></a><br>
+                                    Beijing, China. August 2019.
+                                  </li>
+                                  <li>
+                                    <a href="https://ucare.cs.uchicago.edu/pdf/eurosys19-flyMC.pdf" target="_blank">FlyMC: Highly Scalable Testing of Complex Interleavings in Distributed Systems</a>
+                                    <br>
+                                    Jeffrey F. Lukman, Huan Ke, Cesar A. Stuardo, Riza O. Suminto,
+                                    <!-- <a href="http://people.cs.uchicago.edu/~lukman/" target="_blank" class="person">Jeffrey F. Lukman</a>,
+                                    <a href="http://people.cs.uchicago.edu/~huanke/" target="_blank" class="person">Huan Ke</a>,
+                                    <a href="http://people.cs.uchicago.edu/~castuardo/" target="_blank" class="person">Cesar A. Stuardo</a>,
+                                    <a href="https://people.cs.uchicago.edu/~riza/" target="_blank" class="person">Riza O. Suminto</a>, -->
+                                    <b>Daniar H. Kurniawan</b>,
+                                    Dikaimin Simon,
+                                    Satria Priambada,
+                                    Chen Tian,
+                                    <!-- <a href="https://www.linkedin.com/in/tianc/" target="_blank" class="person">Chen Tian</a>, -->
+                                    Feng Ye,  Tanakorn Leesatapornwongsa, Aarti Gupta, Shan Lu,
+                                    <!-- <a href="https://people.cs.uchicago.edu/~tanakorn/" target="_blank" class="person">Tanakorn Leesatapornwongsa</a>,
+                                    <a href="http://www.cs.princeton.edu/~aartig/" target="_blank" class="person">Aarti Gupta</a>,
+                                    <a href="http://people.cs.uchicago.edu/~shanlu/" target="_blank" class="person">Shan Lu</a>, -->
+                                    <a href="https://people.cs.uchicago.edu/~haryadi/" target="_blank" class="person">Haryadi S. Gunawi</a><br>
+                                    <a href="https://www.eurosys2019.org/accepted-papers/" target="_blank"><i>14<sup>th</sup> edition of EuroSys 2019</i></a><br>
+                                    Dresden, Germany. March 2019.
+                                  </li>
+                                </ul>
+
+
+                                <h3 class="wow animate fadeInUp" id="section-17">2017</h3>
+                                <ul class="wow animate fadeInUp" >
+                                  <li>
+                                    <a href="https://daniarherikurniawan.github.io/file/iceei17-sci-learn.pdf" target="_blank">Sci-Learn: A Novel E-Learning Platform Based on Gamification and Social Media Approach</a><br>
+                                    <b>Daniar H. Kurniawan</b>,
+                                    Yani Widyani<br> 
+                                    <a href="http://www.ftsm.ukm.my/iceei2017/" target="_blank">
+                                    International Conference on Electrical Engineering and Informatics (ICEEI)</i></a><br>
+                                    Langkawi, Malaysia. November 2017.<br>
+                                  </li>
+                                  <li>
+                                    <a href="https://daniarherikurniawan.github.io/file/socc17-pbse.pdf" target="_blank">PBSE: A Robust Path-Based Speculative Execution for Degraded-Network Tail Tolerance in Data-Parallel Frameworks</a>
+                                    <br>
+                                    Riza O. Suminto, Cesar A. Stuardo, Alexandra Clark, Huan Ke, Tanakorn Leesatapornwongsa, Bo Fu, <b>Daniar H. Kurniawan</b>, Vincentius Martin, Uma Maheswara Rao G., Haryadi S. Gunawi<br> 
+                                    <a href="https://acmsocc.github.io/2017/" target="_blank">
+                                    ACM Symposium on Cloud Computing (SoCC)</i></a><br>
+                                    Santa Clara, CA, USA. September 2017.<br>
+                                  </li>
+                                </ul>
+
+                                <h3 class="wow animate fadeInUp" id="section-17">2016</h3>
+                                <ul class="wow animate fadeInUp">
+                                  <li>
+                                    <a href="https://daniarherikurniawan.github.io/file/icaicta16-DCA.pdf" target="_blank">Double Chaining Algorithm: A Secure Symmetric-key Encryption Algorithm</a><br>
+                                       <b>Daniar H. Kurniawan</b>,
+                                       Rinaldi Munir<br> 
+                                    <a href="http://icaicta2016.usm.my/" target="_blank">International Conference on Advanced Informatics: Concepts, Theory and Application (ICAICTA)</i></a><br>
+                                    Penang, Malaysia. August 2016.<br>
+                                  </li>
+                                  <li>
+                                    <a href="https://daniarherikurniawan.github.io/file/ieice15-multiagent.pdf" target="_blank">Development of Multi Agent for Test of Recommendation Functions on Social Learning Platform</a><br>
+                                        Shinobu Hasegawa,
+                                       <b>Daniar H. Kurniawan</b><br> 
+                                    <a href="http://www.ieice.org/eng/index.html" target="_blank"> The Institute of Electronics, Information and Communication Engineers (IEICE)</i></a><br>
+                                    Nagano, Japan. May 2016.<br>
+                                  </li>
+                                </ul>   
+
+                                <h3 class="wow animate fadeInUp" id="section-17">2015</h3>
+                                <ul class="wow animate fadeInUp">
+                                  <li>
+                                    <a href="https://daniarherikurniawan.github.io/file/iceei15-LI.pdf" target="_blank">A New String Matching Algorithm Based on Logical Indexing</a><br>
+                                    <b>Daniar H. Kurniawan</b>,
+                                    Rinaldi Munir
+                                    <br> 
+                                    <a href="https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7337353" target="_blank">International Conference on Electrical Engineering and Informatics (ICEEI)</i></a><br>
+                                    Bali, Indonesia. August 2015.<br>
+                                  </li>
+                                </ul>
+
+                                <!-- <br> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <span id="awards" style="top: -50px; position: relative;"></span>
+            <div class="c-content-box c-size-md c-bg-grey-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12" style="padding-right: 30px">
+                            <div class="c-content-feature-1 wow animate fadeInUp" >
+                                <h2 class="c-font-uppercase c-font-bold" style="text-align: center;">Honors  &  Awards</h2>
+                                <br>
+                                <ul class="wow animate fadeInUp">
+                                  <li>
+                                    <b>University Unrestricted (UU) Fellowship</b>, University of Chicago, 2020
+                                  </li>
+                                  <li>
+                                    <b>CERES Scholar Award</b>, University of Chicago, 2018
+                                  </li>
+                                  <li>
+                                    <b>Student Grant ACM SoCC</b>, 2018
+                                  </li>
+                                  <li>
+                                    <b>3rd Place Webfest-CERN</b>, 2017
+                                  </li>
+                                  <li>
+                                    <b>Cum Laude Distinction</b>, Institut Teknologi Bandung, 2017
+                                  </li>
+                                  <li>
+                                    <b>Full Scholarship (BIUS)</b>, Institut Teknologi Bandung, 2013
+                                  </li>
+                                </ul>
+
+                           <!--  <div class="c-content-feature-1 wow animate fadeInUp" style="text-align: center;">
+                                <h2 class="c-font-uppercase c-font-bold">Awards</h2>
+                                <p class="c-font-thin"><b>Avatar</b> merupakan sebuah komunitas yang dibentuk sebagai wadah bagi pemuda untuk berkecimpung dan berkontribusi aktif dalam memajukan pendidikan. Nama Avatar merupakan kependekan dari Akselerasi Visi Akademis Berintegritas Luhur.</p>
+                                <br> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END: PAGE CONTAINER -->
+
+        <!-- <div class="c-content-box c-size-md c-bg-grey-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12" style="padding-right: 30px">
+                        <div class="c-content-feature-1 wow animate fadeInUp" >
+                            <h2 class="c-font-uppercase c-font-bold" style="text-align: center;">Mentorship</h2>
+                            <br>
+                            <ul class="wow animate fadeInUp">
+                              <li>
+                                <b>University Unrestricted (UU) Fellowship</b>, University of Chicago, 2020
+                              </li>
+                              <li>
+                                <b>CERES Scholar Award</b>, University of Chicago, 2018
+                              </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- BEGIN: LAYOUT/FOOTERS/FOOTER-6 -->
+        <a name="footer"></a>
+        <footer class="c-layout-footer c-layout-footer-6 c-bg-grey-5">
+            <span id="kontak"></span>
+            <div class="container">
+                <div class="c-prefooter c-bg-white">
+                    <div class="c-head">
+                    </div>
+                    <!-- <div  class="c-line"></div> -->
+                    <div class="c-body">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                            <!-- <div class="col-md-4 wow animate slideInUp"> -->
+                                <div class="c-media c-center">
+                                    <br>
+                                    <a href="https://computerscience.uchicago.edu/" target="_blank"> <img src="assets/base/img/content/uchicago/Uchicago-logo.gif" height="50" alt="" /> </a>
+                                    <span id="dinamicBrFooter1" ></span>
+                                    <script type="text/javascript">
+                                        if($(window).width()<500){
+                                            $('#dinamicBrFooter1').html("<br><br>")
+                                        }
+                                    </script>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12" style="margin-left: -20px">
+                                <div class="c-content-title-1 c-title-md">
+                                    <h3 id="externalLinks" class="c-title c-center c-font-uppercase c-font-bold">External links</h3>
+                                    <script type="text/javascript">
+                                        if($(window).width()<1000){
+                                            $('#externalLinks').html("")
+                                        }
+                                    </script>
+                                    <div class="row c-center" >
+                                        <div class="socicon c-center c-title-md" style="width: 100%;">
+                                            <a style="text-decoration: none" href="https://www.facebook.com/daniar.h.kurniawan" target="_blank" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-facebook tooltips c-center " data-original-title="Facebook" data-container="body"></a>
+                                            <a style="text-decoration: none" href="https://github.com/daniarherikurniawan" target="_blank" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover socicon-github tooltips c-center " data-original-title="Github" data-container="body"></a>
+                                            <a style="text-decoration: none" href="https://www.linkedin.com/in/daniarheri/" target="_blank" class="socicon-btn socicon-btn-circle socicon-solid c-bg-grey-1 c-font-grey-2 c-theme-on-hover tooltips c-center " data-original-title="LinkedIn" data-container="body"><i class="fa fa-linkedin" style="font-size:26px"></i></a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                
+                                <span id="dinamicBrFooter2" ></span>
+                                <script type="text/javascript">
+                                    if($(window).width()<500){
+                                        $('#dinamicBrFooter2').html("<br>")
+                                    }
+                                </script>
+                                <!-- <div class="c-twitter">
+                                    <a class="twitter-timeline" href="https://twitter.com/themehats" data-tweet-limit="2" data-chrome="noheader nofooter noscrollbar noborders transparent"> Loading tweets by @themehats... </a>
+                                </div> -->
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12">
+                                <div class="c-media c-center" style="padding-top: 15px">
+                                    <!-- <br> -->
+                                    <a href="https://ucare.cs.uchicago.edu/" target="_blank"><img src="assets/base/img/content/uchicago/ucare-white.jpg" height="70" alt="" /> </a>
+                                    <span id="dinamicBrFooter1" ></span>
+                                    <script type="text/javascript">
+                                        if($(window).width()<500){
+                                            $('#dinamicBrFooter1').html("<br><br>")
+                                        }
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="c-line"></div> -->
+                    <div class="c-foot">
+                    </div>
+                </div>
+            </div>
+            <div class="c-postfooter c-bg-dark-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 c-col">
+                            <p class="c-copyright c-font-grey">2020 &copy; Designed by Daniar Heri K.
+                                <span class="c-font-grey-3">All Rights Reserved.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- END: LAYOUT/FOOTERS/FOOTER-6 -->
+        <!-- BEGIN: LAYOUT/FOOTERS/GO2TOP -->
+        <div class="c-layout-go2top">
+            <i class="icon-arrow-up"></i>
+        </div>
+        <!-- END: LAYOUT/FOOTERS/GO2TOP -->
+        <!-- BEGIN: LAYOUT/BASE/BOTTOM -->
+        <!-- BEGIN: CORE PLUGINS -->
+        <!--[if lt IE 9]>
+    <script src="../../assets/global/plugins/excanvas.min.js"></script> 
     <![endif]-->
+        
+        <!-- END: LAYOUT PLUGINS -->
+        <!-- BEGIN: THEME SCRIPTS -->
+        <script src="assets/base/js/components.js" type="text/javascript"></script>
+        <script src="assets/base/js/components-shop.js" type="text/javascript"></script>
+        <script src="assets/base/js/app.js" type="text/javascript"></script>
+        <script>
+            $(document).ready(function()
+            {
+                App.init(); // init core    
+            });
+        </script>
+        <!-- END: THEME SCRIPTS -->
+        <!-- BEGIN: PAGE SCRIPTS -->
+        <script src="assets/demos/default/js/scripts/revo-slider/slider-4.js" type="text/javascript"></script>
+        <script src="assets/plugins/isotope/isotope.pkgd.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/isotope/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/isotope/packery-mode.pkgd.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/ilightbox/js/jquery.requestAnimationFrame.js" type="text/javascript"></script>
+        <script src="assets/plugins/ilightbox/js/jquery.mousewheel.js" type="text/javascript"></script>
+        <script src="assets/plugins/ilightbox/js/ilightbox.packed.js" type="text/javascript"></script>
+        <script src="assets/demos/default/js/scripts/pages/isotope-gallery.js" type="text/javascript"></script>
+        <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.parallax.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/revo-slider/js/extensions/revolution.extension.kenburn.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/counterup/jquery.waypoints.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/counterup/jquery.counterup.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+        <script src="assets/plugins/smooth-scroll/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="assets/plugins/typed/typed.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/slider-for-bootstrap/js/bootstrap-slider.js" type="text/javascript"></script>
+        <script src="assets/plugins/js-cookie/js.cookie.js" type="text/javascript"></script>
 
-</head>
-
-<body id="page-top" class="index">
-    
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a  class="navbar-brand page-scroll" href="#page-top"><img src="img/favicon.png"></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <div>
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#experience">Experience</a>
-                    </li>
-                    <li > 
-                        <a class="page-scroll" style="    padding-left: 0px;border-right: 1px solid white;">&nbsp</a>
-                    </li>
-                    <li > 
-                        <a class="page-scroll" style="padding-left: 0px;" >&nbsp</a>
-                    </li>
-                    
-                    <li style="display: none">
-                        <img src="img/header.jpg"></a>
-                    </li>
-                
-                    <li>
-                        <a href="pubs">Research</a>
-                    </li>
-                    <li>
-                        <a style="margin-top: -3px;"  class="navbar-right" href="https://people.cs.uchicago.edu/~daniar/arsip/CV-Daniar.pdf" target="_blank">
-                        <img style="margin-top: -2px;" src="img/resume.png"> Resume</a>
-                    </li>
-                    <li>
-                        <a style="margin-top: -3px;"  class="navbar-right" href="https://a.vatar.club" target="_blank">
-                        <img style="margin-top: -2px;" src="img/logi.png"> Avatar</a>
-                    </li>
-                    <li>
-                        <a style="margin-top: -3px;"  class="navbar-right" href="https://medium.com/@daniarherikurniawan" target="_blank">
-                        <img style="margin-top: -2px;" src="img/medium_icon.png"> My Medium</a>
-                    </li>
-                </ul>
-                </div>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header style="background-image: url(img/header.jpg);">
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in text-muted">Welcome To My Website!</div>
-                <div class="intro-heading">はじめまして</div>
-
-                <a href="https://people.cs.uchicago.edu/~daniar/" style="    text-transform: none;" class=" btn btn-xl ">New Homepage</a>
-            </div>
-        </div>
-    </header>
-                
-    <!-- Team Section -->
-    <section id="about" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <p>My name is Daniar Heri Kurniawan, I finished my BS in Computer Science at Bandung Institute of Technology. I am the founder of Sci-Learn and 
-                            co-founder of Komunitas Avatar at https://a.vatar.club I am an extrovert who interacts well with people. I like to set goals and I am very persistent in achieving them. Moreover, I love programming because everything is programmable. </p>
-                        <p>Even though I made some simple applications but I believe that everything big comes from the simple one. As long as we have the right goals to create our programs, I am sure we can make our world easier.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/about/fotodaniar.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Daniar Heri Kurniawan</h4>
-                        <p class="text-muted">
-                        Jalan Plesiran No. 52/56, Tamansari, Bandung <br> daniar.h.k@gmail.com<br>(+62) 8988 306 907</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://twitter.com/daniarheri" target="_blank"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="https://www.facebook.com/daniar.h.kurniawan" target="_blank"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="https://id.linkedin.com/in/daniar-heri-kurniawan-98b6158b" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/daniarherikurniawan" target="_blank"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="https://instagram.com/dan_ilma/" target="_blank"><i class="fa fa-instagram"></i></a>
-                            </li>
-                            <li><a href="https://www.youtube.com/channel/UCLvdmsxTz-77SUaOlsI7l0w" target="_blank"><i class="fa fa-youtube"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                         <p>My motivation is to do my best wherever I am and whatever position I am in. Basically, I want to make my family proud of me and make them happy. I believe that the way we think is the main source of a strong motivation. I love challenges, so when I face an unexpected problem, I am pretending that it is my new challenge that needs to be solved. </p>
-                         <p>I am excellent in working with computer. I am studying and practicing about how to develop software and about team management because it is impossible to make a great software only by myself.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Services Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Overview</h2>
-                    <h3 class="section-subheading text-muted">Hi!! My name is Daniar Heri Kurniawan, you can call me Daniar. I am building this website for sharing information. I believe that this website can help me to be much more known through this infinite world. Although it is just a simple website, but I did my best for creating every detail of its parts. You will know me well after reading each section of my pages.</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="img/overview/vision.png">
-                    </span>
-                    <h4 class="service-heading">Vision</h4>
-                    <p class="text-muted">I should be better than yesterday and I want to learn something new from yesterday. Yesterday already passed so that's why focusing to the future is the best decision. I am not living without dreaming. Now or never! Let's get prepared! </p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="img/overview/mission.png">
-                    </span>
-                    <h4 class="service-heading">Mission</h4>
-                    <p class="text-muted">I like to set short term goals and long term goals. I let my friends know about my plan because I believe that they will remind me when I forgot.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="img/overview/dream.png">
-                    </span>
-                    <h4 class="service-heading">Dream</h4>
-                    <p class="text-muted">I want to be happy. Happy is not about having too much free time, but happiness is a condition when I can do something new and achieve my goals. Moreover, I would like to be a lecturer for sharing my knowledge and a socio-preneur</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Don't hesitate to contact me for more details!</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioCariKos" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/carikos.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Cari Kos</h4>
-                        <p class="text-muted">Web Based Application</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioTamanKita" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/tamankita.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Taman Kita</h4>
-                        <p class="text-muted">Web Based Application</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioNewsAgregator" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/newsagregator.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>News Agregator</h4>
-                        <p class="text-muted">Web Based Application</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioSudoku" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/sudoku.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Sudoku</h4>
-                        <p class="text-muted">Desktop Game</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioRockSlice" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/rockslice.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Rock Slice</h4>
-                        <p class="text-muted">Desktop Application</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioAccessApps" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/access.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Access'apps</h4>
-                        <p class="text-muted">Desktop Application</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioTweetAnalayzer" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/twitanalayzer.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Tweet Analayzer</h4>
-                        <p class="text-muted">Web Based Application</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioEnigmaMobile" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/enigma.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Enigma Mobile</h4>
-                        <p class="text-muted">Mobile Application</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioWebCrawler" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/webcrawler.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Web Crawler</h4>
-                        <p class="text-muted">Web Based Application</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioStringMatching" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/stringalgorithm.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>String Matching Algorithm</h4>
-                        <p class="text-muted">Paper</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="fonts/font_google/font1.css" rel="stylesheet" type="text/css">
-    <link href="fonts/font_google/font2.css" rel="stylesheet" type="text/css">
-    <link href="fonts/font_google/font3.css" rel="stylesheet" type="text/css">
-    <link href="fonts/font_google/font4.css" rel="stylesheet" type="text/css">
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/agency.js"></script>
-    
-    <!-- About Section -->
-    <section id="experience">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Experience</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/experience/uchicago.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h5>September 2015 - Present</h5>
-                                    <br>
-                                    <h4 class="subheading">UCare Laboratory of the University of Chicago</h4><h5><i>Student Researcher</i></h5>
-                                </div>
-                                <br>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Research area of UCare Lab are cloud computing and distributed system. This Lab is run by PhD students of Chicago University under supervision of their professors. </p>
-                                    <br>
-                                    <p>Focus on studying bugs at cloud computing and distributed system such as Couchbase, Hadoop, and Cassandra.</p>
-                                    <br>
-                                    <p class="text-muted">Having weekly report and assignment that teach me to stay focus even under pressure.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/experience/cern.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h5>July - September 2017</h5>
-                                    <br>
-                                    <h4 class="subheading">CERN Openlab Summer Student</h4><h5><i>Research Student – Geneva, Swiss</i></h5>
-                                </div>
-                                <br>
-                                <div class="timeline-body">
-                                    <p class="text-muted">CERN Openlab and the IT-CDA Group in collaboration with UNOSAT are investigating novel technologies for facilitating satellite maps navigation and comparisons using VR.</p>
-                                    <br>
-                                    <p>There were only 37 international students selected among 1580 applicants from all around the world.</p>
-                                    <br>
-                                    <p class="text-muted">I developed an animated 3D model of Ab-Barak landslide on Microsoft Hololens.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/experience/tut.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h5>November 2016 (10 days)</h5>
-                                    <br>
-                                    <h4 class="subheading">Computer Science Laboratories, Toyohashi University of Technology
-                                    </h4><h5><i>TUT International Student Program 2016 - Toyohashi, Japan</i></h5>
-                                </div>
-                                <br>
-                                <div class="timeline-body">
-                                    <p class="text-muted">TUT is among an elite group of 22 universities selected for the Japanese government funded program, the Program for Promoting the Enhancement of Research Universities. </p>
-                                    <br>
-                                    <p>I shared my experience and my research plan that tailored to TUT’s research activity.</p>
-                                    <br>
-                                    <p class="text-muted">I got an offer to do the research at TUT as part of Master Degree Research Program.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/experience/aiesec.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h5>July - November 2016</h5>
-                                    <br>
-                                    <h4 class="subheading">AIESEC in Bandung</h4><h5><i>International Relation Coordinator - Bandung, Indonesia</i></h5>
-                                </div>
-                                <br>
-                                <div class="timeline-body">
-                                    <p class="text-muted">In 1949, AIESEC was established at Stockholm Congress. AIESEC is now present in more than 125 countries, with more than 80,000 members and 5,000 partners.</p>
-                                    <br>
-                                    <p>International relation is a collaboration among entities (Local Committees) to support each other in terms of exchanging member and giving the best experience that AIESEC has promised.</p>
-                                    <br>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/experience/jaist.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h5>September 2015 - February 2016</h5>
-                                    <br>
-                                    <h4 class="subheading">Hasegawa Laboratory, Japan Advanced Institute of Science and Technology
-                                    </h4><h5><i>Research Student - Ishikawa, Japan</i></h5>
-                                </div>
-                                <br>
-                                <div class="timeline-body">
-                                    <p class="text-muted">We were developing Sci-Learn, e-Learning platform, and also the multi agent system to simulate user’s behavior and evaluate the new feature of Sci-Learn. (https://sci-learn.com). </p>
-                                    <br>
-                                    <p>Sci-Learn is developed for scalability purpose.</p>
-                                    <br>
-                                    <p class="text-muted">The general idea of Sci-Learn is to combine Social Network (Facebook, LinkedIn, Google+) with gamification to increase learners’ engagement.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/experience/td.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h5>September - November 2015</h5>
-                                    <br>
-                                    <h4 class="subheading">TD&Company Limited</h4><h5><i>Intern as Software Engineer</i></h5>
-                                </div>
-                                <br>
-                                <div class="timeline-body">
-                                    <p class="text-muted">The main business of TD&Company are SAP consulting service, global helpdesk service, system service, and management service. There are seven overseas branches including Hong Kong, Singapore, Netherland, and Germany.</p>
-                                    <br>
-                                    <p>Run software testing for the new ERP Software called Multibook.</p>
-                                    <br>
-                                    <p class="text-muted">Implemented authentication module in the Spring Framework controller and Angular JS controller that will be used to authenticate more than 50 modules.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/experience/gdp.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h5>September 2015 - November 2015</h5>
-                                    <br>
-                                    <h4 class="subheading">Global Digital Prima (GDP) Venture Inc.</h4><h5><i>Intern as Software Engineer</i></h5>
-                                </div>
-                                <br>
-                                <div class="timeline-body">
-                                    <p class="text-muted">GDP Venture is one of the leading strategic investor located in Jakarta. They invest in early and growing stages of new companies in information technology industry such as Kaskus.co.id and Blibli.com.</p>
-                                    <br>
-                                    <p>Reduced query time by 98% by migrating databases to Amazon Redshift.</p>
-                                    <br>
-                                    <p class="text-muted">Reduced query time by 50% by optimizing old query that used by the company for retrieving data.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/experience/aiesec.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h5>December 2014 - January 2015</h5>
-                                    <br>
-                                    <h4 class="subheading">AIESEC Student Exchange Program </h4><h5><i>Intern at Sawadee Project (Thailand)</i></h5>
-                                </div>
-                                <br>
-                                <div class="timeline-body">
-                                    <p class="text-muted">AIESEC is the biggest international student organization. AIESEC has various projects that can develop our team work skills and enhance our abilities through experiencing the culture of another country.</p>
-                                    <br>
-                                    <p>This project aims to teach student and teacher in a rural area of Thailand about English. I am also as International Relation team of this project since some students from Indonesia join this project and we need to make sure that they get what they should get during this project.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/experience/cfb.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h5>2014 - 2015</h5>
-                                    <br>
-                                    <h4 class="subheading">Code for Bandung </h4><h5><i>Software Analyst</i></h5>
-                                </div>
-                                <br>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Code for Bandung is a project that having purpose to support smart city development in Bandung. This project is funded by US organization.</p>
-                                    <br>
-                                    <p>We work together directly with Bandung’s government to make their job easier by using software that we have built. </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/experience/msdk.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h5>2014 - Present</h5>
-                                    <br>
-                                    <h4 class="subheading">Student Association of Bandung Institute of Technology </h4><h5><i>Deputy Chief of Internal Relation</i></h5>
-                                </div>
-                                <br>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Student association is managed by cabinet as the highest executive organization at Bandung Institute of Technology.</p>
-                                    <br>
-                                    <p>We organize some events that could build friendship among the staff of student association cabinet, because they need to work and collaborate together as a family.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/experience/exstrakampus.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h5>2014 - Present</h5>
-                                    <br>
-                                    <h4 class="subheading">Informatics Student Association of Bandung Institute of Technology</h4><h5><i>Staff of extra campus division</i></h5>
-                                </div>
-                                <br>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Informatics student association is dedicated to the advancement and development of informatics student’s ability, sociality, and proficiency. There are some divisions that focus on specific task, e.g. extra-campus.</p>
-                                    <br>
-                                    <p>We are responsible for every event that come from outside of campus, including exhibit that collaborate with the alumni, international conference, international or national informatics competition and even campus or company tour.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/experience/syamsi.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h5>2014 - Present</h5>
-                                    <br>
-                                    <h4 class="subheading">Syamsi Dhuha Foundation</h4><h5><i>Member</i></h5>
-                                </div>
-                                <br>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Syamsi Dhuha Foundation is a foundation that care on lupus and low vision. SDF was awarded Sasakawa Health Prize 2012 for having innovative programs. (www.syamsidhuhafoundation.org)</p>
-                                    <br>
-                                    <p>We need to collaborate with another member and the staff to do some activities that can help / support people who are suffering on lupus and low vision.</p>
-                                    <br>
-                                    <p>We make some innovative programs to educate society about lupus and low vision.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/experience/iit.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h5>2013 - 2014</h5>
-                                    <br>
-                                    <h4 class="subheading">Inkubator IT</h4><h5><i>Staff of marketing division</i></h5>
-                                </div>
-                                <br>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Inkubator IT (IIT) is a department under informatics student association that aims to be trusted software house. IIT build some projects based on user demand. </p>
-                                    <br>
-                                    <p>We manage advertisements, promotions, public relations and sales of IIT’s products. </p>
-                                    <br>
-                                    <p>We want to make IIT well known by participating in some attractive events.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/experience/avatargroup.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h5>2012 - Present</h5>
-                                    <br>
-                                    <h4 class="subheading">Trenggalek Education Group</h4><h5><i>Physics and Mathematics Teacher</i></h5>
-                                </div>
-                                <br>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Trenggalek is my home town where I build this community. The purpose is to increase education quality of my underdeveloped town. We teach some junior and high school’s lessons for free.</p>
-                                    <br>
-                                    <p>We focus on National Science Olympiad preparation because we believe that every Trenggalek student has a chance to be the winner even though he/she comes from poor family.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4 style="    margin-top: 27px;">Please
-                                    <br>Contact Me
-                                    <br>for More
-                                    <br>Detail</h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    
-    
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Thank you!</h2>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; www.daniarheri.com 2018</span>
-                </div>
-                <div
-                </div>
-                <div class="col-md-4 pull-right">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="https://getbootstrap.com/">Framework by Bootstrap</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- Portfolio Modal access -->
-    <div class="portfolio-modal modal fade" id="portfolioCariKos" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Cari Kos</h2>
-                            <p class="item-intro text-muted">Web Based Application</p>
-                            <img class="img-responsive" src="img/portfolio/portfolioCariKos.jpg" alt="">
-                            <p>www.carikos.com is a web application for search, book, and advertise rented rooms. This project funded by Indonesian Ministry of High Education since we selected as semifinalist. (https://www.dikti.go.id)</p>
-                            
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-<!-- angular js -->
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioTamanKita" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Taman Kita</h2>
-                            <p class="item-intro text-muted">Web Based Application</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/portfolioTamanKita.jpg" alt="">
-                            <p>www.tamankita.com is one of assignments from my lecturer. The aim of this website is for reporting any problems that we found at our city park. This is just for Bandung area, because we want to test the simplest one before applying largerly at the entire parks of Indonesia. We want to help the goverment of Bandung to maintain and monitor their parks by maximize citezens participation. </p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioNewsAgregator" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>News Agregator</h2>
-                            <p class="item-intro text-muted">Web Based Application</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/portfolioNewsAgregator.jpg" alt="">
-
-                            <p>This is a program that can predict the category of the news that you gave. This application applied theory of learning machine. I use WEKA api and web language to develop it.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioSudoku" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Sudoku</h2>
-                            <p class="item-intro text-muted">Desktop Application</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/portfolioSudoku.jpg" alt="">
-                            <p>This application is made using CLISP language and Java Language. All of the solver algorithm is in CLISP. I use java as the UI. We can play and solve sudoku in this application.  </p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioRockSlice" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Rock Slice</h2>
-                            <p class="item-intro text-muted">Desktop Application</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/portfolioRockSlice.jpg" alt="">
-                            <p>Rock or stone can be identified it's category by use their color composition. This application will help the geologist to count rock's color composition precisely. I use some algorithm like the one that used by Photoshop. This is a desktop application that developed using java language.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioAccessApps" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Access'apps</h2>
-                            <p class="item-intro text-muted">Desktop Application</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/portfolioAccessApps.jpg" alt="">
-                            <p>I made this application at my previous summer 2014's holiday. This application was used by a competition organizer. They needed this application to conduct and facilitate an accountancy competition that was held in University of Surakarta. This application facilitate the participant to do each level of selection, such as beginning selection and semifinal challenges. </p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioTweetAnalayzer" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Tweet Analayzer</h2>
-                            <p class="item-intro text-muted">Web Based Application</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/portfolioTweetAnalayzer.jpg" alt="">
-                            <p>Tweets Analyzer is an application that give location of traffic jam or accident based on some people tweets. We use twitter's API and Google Map's API to build the feature.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-<!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioEnigmaMobile" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Enigma Mobile</h2>
-                            <p class="item-intro text-muted">Mobile Application</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/portfolioEnigma.jpg" alt="">
-                            <p>Enigma is an old encryption algorithm that has been famous since Second World War. I make EnigmaMobile to do encryption and decryption using enigma algorithm. The platform of this application is android. I use Eclipse to develop it.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-<!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioWebCrawler" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Web Crawler</h2>
-                            <p class="item-intro text-muted">Web Based Application</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/portfolioWebCrawler.jpg" alt="">
-                            <p>This is web based application that can be used as search engine like Google or Bing. This crawler implements tree structure algorithm and crawls every link recursively. </p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-<!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioStringMatching" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>String Matching Algorithm</h2>
-                            <p class="item-intro text-muted">Paper</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/portfolioStringMatching.jpg" alt="">
-                            <p>“Fast String Matching Algorithm” is a new string matching algorithm that combine Boyer Moore algorithm and Knuth-Morris-Pratt algorithm. I haven't translated this paper to English yet.</p>
-                            <p>You can download the PDF at this link <a target="_blank" href="https://www.dropbox.com/s/cn7ys360gvlusta/Makalah%20IF2211%20Algoritma%20Cepat%20Pencocokan%20String%20new.pdf?dl=0">“Fast String Matching Algorithm”</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-
-</body>
+        <!-- END: PAGE SCRIPTS -->
+        <!-- BEGIN: FORM SUBMISSION SCRIPTS -->
+        <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler-pemateri.js"></script>
+        <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler-siswa.js"></script>
+        <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler-faq.js"></script>
+        <!-- END: FORM SUBMISSION SCRIPTS-->
+        <!-- END: LAYOUT/BASE/BOTTOM -->
+    </body>
 
 </html>
